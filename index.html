@@ -93,7 +93,7 @@
 </code></pre><h1 id="1-Uboot"><a href="#1-Uboot" class="headerlink" title="1.Uboot"></a>1.Uboot</h1><h2 id="Read-Me："><a href="#Read-Me：" class="headerlink" title="Read Me："></a>Read Me：</h2><pre><code>uboot version ：u-boot-2.1.6  
 readme 文件目录介绍
 </code></pre><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- board		Board dependent files</span><br><span class="line">- common	Misc architecture independent functions</span><br><span class="line">- cpu		CPU specific files</span><br><span class="line">  - <span class="number">74</span>xx_7xx	Files specific to Freescale MPC74xx <span class="keyword">and</span> <span class="number">7</span>xx CPUs</span><br><span class="line">  - arm720t	Files specific to ARM <span class="number">720</span> CPUs</span><br><span class="line">  - arm920t	Files specific to ARM <span class="number">920</span> CPUs</span><br><span class="line">    - at91rm9200 Files specific to Atmel AT91RM9200 CPU</span><br><span class="line">    - imx	Files specific to Freescale MC9328 i.MX CPUs</span><br><span class="line">    - s3c24x0	Files specific to Samsung S3C24X0 CPUs</span><br><span class="line">  - arm925t	Files specific to ARM <span class="number">925</span> CPUs</span><br><span class="line">  - arm926ejs	Files specific to ARM <span class="number">926</span> CPUs</span><br><span class="line">  - arm1136	Files specific to ARM <span class="number">1136</span> CPUs</span><br><span class="line">  - at32ap	Files specific to Atmel AVR32 AP CPUs</span><br><span class="line">  - i386	Files specific to i386 CPUs</span><br><span class="line">  - ixp		Files specific to Intel XScale IXP CPUs</span><br><span class="line">  - mcf52x2	Files specific to Freescale ColdFire MCF52x2 CPUs</span><br><span class="line">  - mips	Files specific to MIPS CPUs</span><br><span class="line">  - mpc5xx	Files specific to Freescale MPC5xx  CPUs</span><br><span class="line">  - mpc5xxx	Files specific to Freescale MPC5xxx CPUs</span><br><span class="line">  - mpc8xx	Files specific to Freescale MPC8xx  CPUs</span><br><span class="line">  - mpc8220	Files specific to Freescale MPC8220 CPUs</span><br><span class="line">  - mpc824x	Files specific to Freescale MPC824x CPUs</span><br><span class="line">  - mpc8260	Files specific to Freescale MPC8260 CPUs</span><br><span class="line">  - mpc85xx	Files specific to Freescale MPC85xx CPUs</span><br><span class="line">  - nios	Files specific to Altera NIOS CPUs</span><br><span class="line">  - nios2	Files specific to Altera Nios-II CPUs</span><br><span class="line">  - ppc4xx	Files specific to AMCC PowerPC <span class="number">4</span>xx CPUs</span><br><span class="line">  - pxa		Files specific to Intel XScale PXA CPUs</span><br><span class="line">  - s3c44b0	Files specific to Samsung S3C44B0 CPUs</span><br><span class="line">  - sa1100	Files specific to Intel StrongARM SA1100 CPUs</span><br><span class="line">- disk		Code <span class="keyword">for</span> disk drive partition handling</span><br><span class="line">- doc		Documentation (don't expect too much)</span><br><span class="line">- drivers	Commonly used device drivers</span><br><span class="line">- dtt		Digital Thermometer <span class="keyword">and</span> Thermostat drivers</span><br><span class="line">- examples  Example code <span class="keyword">for</span> standalone applications, etc.</span><br><span class="line">- include	Header Files</span><br><span class="line">- lib_arm	Files generic to ARM	 architecture</span><br><span class="line">- lib_avr32	Files generic to AVR32	 architecture</span><br><span class="line">- lib_generic	Files generic to all	 architectures</span><br><span class="line">- lib_i386	   Files generic to i386	 architecture</span><br><span class="line">- lib_m68k	Files generic to m68k	 architecture</span><br><span class="line">- lib_mips	Files generic to MIPS	 architecture</span><br><span class="line">- lib_nios	Files generic to NIOS	 architecture</span><br><span class="line">- lib_ppc	Files generic to PowerPC architecture</span><br><span class="line">- net		Networking code</span><br><span class="line">- post		Power On Self Test</span><br><span class="line">- rtc		Real Time Clock drivers</span><br><span class="line">- tools		Tools to build S-Record <span class="keyword">or</span> U-Boot images, etc.</span><br></pre></td></tr></table></figure>
-<p>###1.board<br>本目录存放与已有开发板相关的文件。每种开发板有一个子目录，子目录仅存放与开发板相关的c文件和配置文件，不包含开发板CPU架构通用的实现文件。<br><code>.\u-boot-1.1.6_jz2440\u-boot-1.1.6\board\100ask24x0:</code></p>
+<h3 id="1-board"><a href="#1-board" class="headerlink" title="1.board"></a>1.board</h3><p>本目录存放与已有开发板相关的文件。每种开发板有一个子目录，子目录仅存放与开发板相关的c文件和配置文件，不包含开发板CPU架构通用的实现文件。<br><code>.\u-boot-1.1.6_jz2440\u-boot-1.1.6\board\100ask24x0:</code></p>
 <blockquote>
 <ul>
 <li>100ask24x0.c</li>
@@ -105,8 +105,8 @@ readme 文件目录介绍
 <li>u-boot.lds</li>
 </ul>
 </blockquote>
-<p>###2.common<br>实现u-boot命令行下支持的命令。例如bootm命令对应的是cmd_bootm.c。另外还包括一些需要辅助使用的文件。</p>
-<p>###3.CPU<br>与处理器体系架构相关目录<br><code>.\u-boot-1.1.6_jz2440\u-boot-1.1.6\cpu\arm920t</code></p>
+<h3 id="2-common"><a href="#2-common" class="headerlink" title="2.common"></a>2.common</h3><p>实现u-boot命令行下支持的命令。例如bootm命令对应的是cmd_bootm.c。另外还包括一些需要辅助使用的文件。</p>
+<h3 id="3-CPU"><a href="#3-CPU" class="headerlink" title="3.CPU"></a>3.CPU</h3><p>与处理器体系架构相关目录<br><code>.\u-boot-1.1.6_jz2440\u-boot-1.1.6\cpu\arm920t</code></p>
 <blockquote>
 <ul>
 <li>start.S</li>
@@ -117,18 +117,17 @@ readme 文件目录介绍
 </ul>
 </blockquote>
 <p>平台相关的和CPU架构相关代码<br><code>\u-boot-1.1.6_jz2440\u-boot-1.1.6\cpu\arm920t\s3c24x0</code></p>
-<p>###4.disk<br>对磁盘的支持。</p>
-<p>###5.doc<br>文档目录。</p>
-<p>###6.drivers<br>设备驱动程序目录。比如串口、USB、mmc等。</p>
-<p>###7.fs<br>支持的文件系统。u-boot支持cramfs、ext2、fat、fdos、jffs2、reiserfs、ubifs、yaffs2文件系统。</p>
-<p>###8.include<br>使用的头文件均在改目录下，还有对各种硬件平台支持的汇编文件、系统配置文件和文件系统支持的文件。<br>该目录下configs目录有与开发板相关的配置文件。例如<br><code>u-boot-1.1.6_jz2440\u-boot-1.1.6\include\configs</code> <code>100ask24x0.h</code><br>该目录下asm目录有与cpu体系结构相关的头文件，例如asm-arm目录下有<br><code>u-boot-1.1.6_jz2440\u-boot-1.1.6\include\asm-arm\arch-s3c24x0</code></p>
+<h3 id="4-disk"><a href="#4-disk" class="headerlink" title="4.disk"></a>4.disk</h3><p>对磁盘的支持。</p>
+<h3 id="5-doc"><a href="#5-doc" class="headerlink" title="5.doc"></a>5.doc</h3><p>文档目录。</p>
+<h3 id="6-drivers"><a href="#6-drivers" class="headerlink" title="6.drivers"></a>6.drivers</h3><p>设备驱动程序目录。比如串口、USB、mmc等。</p>
+<h3 id="7-fs"><a href="#7-fs" class="headerlink" title="7.fs"></a>7.fs</h3><p>支持的文件系统。u-boot支持cramfs、ext2、fat、fdos、jffs2、reiserfs、ubifs、yaffs2文件系统。</p>
+<h3 id="8-include"><a href="#8-include" class="headerlink" title="8.include"></a>8.include</h3><p>使用的头文件均在改目录下，还有对各种硬件平台支持的汇编文件、系统配置文件和文件系统支持的文件。<br>该目录下configs目录有与开发板相关的配置文件。例如<br><code>u-boot-1.1.6_jz2440\u-boot-1.1.6\include\configs</code> <code>100ask24x0.h</code><br>该目录下asm目录有与cpu体系结构相关的头文件，例如asm-arm目录下有<br><code>u-boot-1.1.6_jz2440\u-boot-1.1.6\include\asm-arm\arch-s3c24x0</code></p>
 <h3 id="9-lib"><a href="#9-lib" class="headerlink" title="9.lib"></a>9.lib</h3><p>所有处理器通用的库文件。</p>
-<p>###10.net<br>与网络协议栈相关的代码，bootp协议、tftp协议、rarp协议和nfs文件系统等实现。</p>
-<p>###11.tools<br>生成u-boot工具，例如mkimage。</p>
-<p>###12.api<br>处理器或者开发板为外部应用程序提供独立的API。</p>
-<p>###13.example<br>一些独立的应用程序示范代码。 </p>
-<p>###14.其他 etc。</p>
-<hr>
+<h3 id="10-net"><a href="#10-net" class="headerlink" title="10.net"></a>10.net</h3><p>与网络协议栈相关的代码，bootp协议、tftp协议、rarp协议和nfs文件系统等实现。</p>
+<h3 id="11-tools"><a href="#11-tools" class="headerlink" title="11.tools"></a>11.tools</h3><p>生成u-boot工具，例如mkimage。</p>
+<h3 id="12-api"><a href="#12-api" class="headerlink" title="12.api"></a>12.api</h3><p>处理器或者开发板为外部应用程序提供独立的API。</p>
+<h3 id="13-example"><a href="#13-example" class="headerlink" title="13.example"></a>13.example</h3><p>一些独立的应用程序示范代码。 </p>
+<h3 id="14-其他-etc。"><a href="#14-其他-etc。" class="headerlink" title="14.其他 etc。"></a>14.其他 etc。</h3><hr>
 <p>如何使用uboot config 参考readme示例：</p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Example: For a TQM823L module type:</span><br><span class="line">	cd   u-boot</span><br><span class="line">	make TQM823L_config</span><br></pre></td></tr></table></figure>
 <p>除此之外关于代码中各种编译的宏定义说明<br>关于如何使用uboot自定义到自己的board，uboot readme 给出了相关指示信息。</p>
@@ -142,10 +141,7 @@ readme 文件目录介绍
 <h2 id="config-mk："><a href="#config-mk：" class="headerlink" title="_config.mk："></a>_config.mk：</h2><p>想要得到最后的uboot.bin文件我们需要进行两个步骤：<br>    ①<code>make 100ask24x0_config</code> //此处执行配置文件<br>    ②<code>make</code>                    //编译uboot</p>
 <p>调用第一条的时候会自动执行make 参考的是改文件 在Makefile中具体会执行：</p>
 <p><code>100ask24x0_config    :    unconfig</code><br>    <code>@$(MKCONFIG) $(@:_config=) arm arm920t 100ask24x0 NULL s3c24x0</code><br>其中 <code>MKCONFIG    := $(SRCTREE)/mkconfig</code> 在<code>sourcetree</code> 中的<code>mkconfig</code>，根目录中的<code>mkconfig</code>文件</p>
-<p><code>$(@:_config=) :arm arm920t 100ask24x0 samsung s3c24x0</code><br><code>$(@:_config=)</code>为将传进来的所有参数中的<code>_config</code>替换为空</p>
-<blockquote>
-<p>*（其中“@”指规则的目标文件名，在这里就是<code>100ask24x0_config</code><br><code>$(text:patternA=patternB)</code>，这样的语法表示把text变量每一个元素中结尾的patternA的文本替换为patternB，然后输出） 。</p>
-</blockquote>
+<p><code>$(@:_config=) :arm arm920t 100ask24x0 samsung s3c24x0</code><br><code>$(@:_config=)</code>为将传进来的所有参数中的<code>_config</code>替换为空其中@指规则的目标文件名，在这里就是<code>100ask24x0_config</code><br><code>$(text:patternA=patternB)</code>，这样的语法表示把text变量每一个元素中结尾的patternA的文本替换为patternB，然后输出。</p>
 <p>因此<code>$(@:_config=)</code>的作用就是将<code>100ask24x0_config</code>中的<code>_config</code>去掉，得到<code>100ask24x0</code>。：</p>
 <p><code>./mkconfig 100ask24x0 arm arm920t 100ask24x0 samsung s3c24x0</code><br>即将<code>100ask24x0($1) arm($2) arm920t($3) 100ask24x0($4) NULL($5) s3c24x0($6)</code><br>作为参数传递给当前目录下的mkconfig脚本执行。  </p>
 <p>unconfig:<br><code>@rm -f $(obj)include/config.h $(obj)include/config.mk \</code><br>        <code>$(obj)board/*/config.tmp $(obj)board/*/*/config.tmp</code><br>    其中“@”的作用是执行该命令时不在shell显示。<br>    “obj”变量就是编译输出的目录，因此<code>unconfig</code>的作用就是清除上次执行<code>make *_config</code>命令生成的配置文件（如<code>include/config.h</code>，<code>include/config.mk</code>等）。</p>
